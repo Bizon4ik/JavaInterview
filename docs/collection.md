@@ -1,5 +1,5 @@
 ### Regular:
-- #####General collection interfaces (Collection, Set, Map, List, Queue, SortedSet, SortedMap)
+- ##### General collection interfaces (Collection, Set, Map, List, Queue, SortedSet, SortedMap)
 - #####Interfaces extending Collection. Is Map part of Collection interface?
   ![ac](../img/java-collection-architecture.png)
 - #####Difference between ArrayList and LinkedList
