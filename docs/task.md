@@ -1,0 +1,2 @@
+- find dublicates in array of number and describe complexity of your algorithm
+- write hashcode for class Point that has 2 properties (x and y). Check that hashcode different for Point(1,2) and Point(2,1)
