@@ -1,8 +1,8 @@
 ### Regular:
 - ##### General collection interfaces (Collection, Set, Map, List, Queue, SortedSet, SortedMap)
-- #####Interfaces extending Collection. Is Map part of Collection interface?
+- ##### Interfaces extending Collection. Is Map part of Collection interface?
   ![ac](../img/java-collection-architecture.png)
-- #####Difference between ArrayList and LinkedList
+- ##### Difference between ArrayList and LinkedList
     1 Performance
     
         a. get(int index) or search operation :  ArrayList get(int index) operation runs in constant time i.e O(1)  while LinkedList get(int index) operation run time is O(n) .
@@ -14,9 +14,9 @@
     2  Reverse  Iterator :  LinkedList can be iterated in reverse direction using descendingIterator() while there is no descendingIterator() in ArrayList , so we need to write our own code to iterate over the ArrayList in reverse direction.
 
     3 Memory Overhead :  Memory overhead in LinkedList is more as compared to ArrayList as node in LinkedList needs to maintain the addresses of next and previous node.
- - Difference between Stack and Queue (Stack - LIFO and Queue is FIFO)
+ - ##### Difference between Stack and Queue (Stack - LIFO and Queue is FIFO)
  - **Internal structure of HashMap**
- - TreeSet vs TreeMap:
+ - ##### TreeSet vs TreeMap:
  
     1 Both TreeMap and TreeSet do not permit null values
     
@@ -29,7 +29,7 @@
     5 How works when comparator return `-1` but equals said `true`
       
 ### Senior:
-- Requirements for implementation of hashCode to achieve best performance:
+- ##### Requirements for implementation of hashCode to achieve best performance:
  1 Selecting Fields: So the set of fields used for hashing should be a subset of the fields used for equality.
  
  2 Consistency: Better not use mutable fields for hash code computation
