@@ -1,2 +1,2 @@
 - [Task](docs/task.md)
-- [Collection]
+- [Collection](docs/collection.md)
